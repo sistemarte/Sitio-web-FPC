@@ -4,9 +4,6 @@
 	margin: auto;
 	position: relative;	 
 }
-body{
-
-}
 h1{
 	font-family: 'Open Sans', cursive;
 	color: #0994DB;
@@ -26,19 +23,16 @@ h3{
 	color: black;
 	text-align: center;
 	font-size: 20px;
-	line-height: 1px;
-	
+	line-height: 1px;	
 }
-
 section{
 	width: 700px;
-	height: 1100px;
+	height: auto;
 	float: left;
 	margin-top: 20px;
 	background-color: rgba(0, 0, 255, 0.1);
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
-
 hr {
 	border: 1px dashed gray; 
 	height:0;
@@ -46,7 +40,7 @@ hr {
 }
 aside{
 	width: 280px;
-	height: 680px;
+	height: auto;
 	float: left;
 	margin-left: 20px;
 	margin-top: 20px;
@@ -58,12 +52,9 @@ IMG.imgcenter{
     margin-right: auto;
     border:none;
 }
-
 a{
 	text-decoration: none;
 }
-
-
 ul{
 	list-style: none;
 	width: 600px;
@@ -72,7 +63,6 @@ ul{
 	margin-left: 240px;
 	padding: 0px;
 }
-
 ul li{
 	width: 80px;
 	height: 20px;
@@ -81,27 +71,22 @@ ul li{
 	float: left;
 	text-align: center;
 	font-weight: bolder;
-
 }
-
 ul li ul li{
 	width: 150px;
 	float: left;
 	clear: both;
 }
-
 ul li ul{
 	display: none;
 }
-
 ul li:hover ul{
 	display: block;
 }
 footer{
     width: 1000px;
-    height: 80px;
+    height: auto;
     float: left;
-    margin-top: 830px;
     background: #ADD8E6;
     margin-bottom: 20px;
 }
